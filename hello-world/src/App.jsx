@@ -4,6 +4,7 @@ import { useState } from 'react'
 import FC from './Components/FunctionalComponent'
 import { ClassComp1} from './Components/ClassComp'
 import Click from './Components/Click'
+import Counter from './Components/Counter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
     {/* <ClassComp/> */}
     <ClassComp1 />
     <Click /> 
+    <Counter />
     </div>
    
   )
