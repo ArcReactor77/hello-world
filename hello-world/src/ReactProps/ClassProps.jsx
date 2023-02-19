@@ -4,8 +4,7 @@ class ClassProps extends Component {
   render() {
     return (
       <div>
-        <h1>hiiii {this.props.name} welcome to react from {this.props.place} </h1>
-        <p>{this.props.children}</p>
+        <h1>Ola como vai? {this.props.name} moramos na {this.props.place}</h1>
       </div>
     )
   }

@@ -8,7 +8,7 @@ import Click from './Components/Click'
 import Counter from './Components/Counter'
 import ParentComp from './Components/ParentComp'
 import ClassProps from './ReactProps/ClassProps'
-import FunctionProps from './Components/CompFunc'
+import { BesProp, NooMore } from './ReactProps/BesProp'
 
 
 function App() {
@@ -27,15 +27,15 @@ function App() {
     <Click/>
     <Counter/>
     <ParentComp/>
-    <ClassProps name = "Kajal" place = "office 1" />
-    <ClassProps name = "Alexandra" place = "office 2" />
-    <ClassProps name = "Puss" place = "office 3">
-      <p>Child Component</p>
-    </ClassProps> 
-    <ClassProps name = "Kitty" place = "office 4">
-      <button>Click</button>
-    </ClassProps>
-    <FunctionProps name = "Mulher" place = "Brazil"/>
+    <ClassProps name = "Kajal" place = "Henderson"/>
+    <ClassProps name = "Alexandra" place = "Henderson" />
+    <BesProp name = "Alexandra" place = "Brazil">
+    <button>Click</button>
+    </BesProp>
+    <NooMore name = "Kajal" place = "Brazil">
+      <p>Child component</p>
+      <i>italic</i>
+    </NooMore>
 
     
     </div>
